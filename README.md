@@ -105,7 +105,7 @@ To complete the challenge, you need to:
 
 	To check if you have passed the challenge: 
 
-	1. Join Taxa Network's [Discord](https://discord.com/invite/BusRMXf). Go to the [#developer-grant-program-result](https://discord.com/channels/610854636785762369/887851169005858826) channel.
+	1. Join Taxa Network's [Discord](https://discord.com/invite/BusRMXf). Go to the [#developer-grant-program-results](https://discord.com/channels/610854636785762369/887851169005858826) channel.
 	2. Type a message `/check [github_username]`. And our Discord bot will automatically reply to you!
 
 	![Check result](https://user-images.githubusercontent.com/32873616/137426630-1965d4ff-b84e-4ca2-8451-a4a5b6c54cb7.png)
