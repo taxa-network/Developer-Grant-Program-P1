@@ -28,7 +28,7 @@ This tService contains 2 entry functions:
 
 `"/register"` Takes the github_name as the input from you, temporary stores the names inside a session object. The names are secured by Intel SGX's "sealing" mechanism, and inacccessible even to the node operator.
 
-`"/get_registrations"` Is a limited-access entry that only opens to the Taxa Team. We will use this function to read the names of those who participate in the Taxa Developer Grant Program.
+`"/get_registrations"` Is a limited-access entry that only opens to the Taxa Team. We will use this function to pull the names of those who participate in the Taxa Developer Grant Program.
 
 To complete the challenge, you need to:
 
@@ -46,7 +46,7 @@ To complete the challenge, you need to:
 
 2. Setup your Intel SPID/PRIMARY_KEY: As an independent developer, you need the **service provider ID (SPID)** and **primary key** in order to initialize an attestation with SGX environments.
 
-	1. Register with Intel [here](https://software.intel.com/registration/?lang=en-us)
+	1. Register with Intel [here](https://www.intel.com/content/www/us/en/forms/developer/standard-registration.html)
 	2. Go to [https://api.portal.trustedservices.intel.com/EPID-attestation ](https://api.portal.trustedservices.intel.com/EPID-attestation)
 
 	In the Development access section, click the **Subscribe (unlickable)** button. Follow the steps to generate your SPID and Primary Key.
@@ -105,7 +105,7 @@ To complete the challenge, you need to:
 
 	To check if you have passed the challenge: 
 
-	1. Join Taxa Network's [Discord](https://discord.com/invite/BusRMXf). Go to the [#developer-grant-program-results](https://discord.com/channels/610854636785762369/887851169005858826) channel.
+	1. Join Taxa Network's [Discord](https://discord.com/invite/BusRMXf). Go to the [#developer-grant-program-result](https://discord.com/channels/610854636785762369/887851169005858826) channel.
 	2. Type a message `/check [github_username]`. And our Discord bot will automatically reply to you!
 
 	![Check result](https://user-images.githubusercontent.com/32873616/137426630-1965d4ff-b84e-4ca2-8451-a4a5b6c54cb7.png)
