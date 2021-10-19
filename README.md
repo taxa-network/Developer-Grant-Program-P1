@@ -80,7 +80,7 @@ To complete the challenge, you need to:
 	req = TaxaRequest(
 	    "taxa_developer_program.json",
 	    verbose=True,
-	    peer_cert_b64="smDymzFdUKqPttOwpaXk9lGx4enzKmi33BEIBAfVzWX+iQbRQnJm6kPBUbSf8dz3m4Yg1nbJ2LkJGdUxK0xWhQ=="
+	    peer_cert_b64="M9htC3nNBVqnVI5NXrHESGDZtiWtk44c95BL2y2xVb80YN73Px/o71b3b61D8BpipAMdigUJ4uyZgLLZeHi2yw=="
 	)
 	req.send(
 	  data={'github_name': "[github_username]"},
