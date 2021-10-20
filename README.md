@@ -66,7 +66,7 @@ To complete the challenge, you need to:
 	TAXA_SERVER_CERT_PATH = ./sp_server.crt
 	```
 
-3. Create a new file for the tService (i.e. "tService.py"), and put inside [the code](tService.py) with hash QmVo7WE5P1LK44a7qwt3fnozULqDRrDF4s9bQejPGwTq8o .
+3. Create a new file for the tService (i.e. "tService.py"), and put inside [the code](tService.py) with hash QmVo7WE5P1LK44a7qwt3fnozULqDRrDF4s9bQejPGwTq8o .  This hash will be displayed once you run the file below in the `app_id` field of the request data.
 
 	> Please note: The tService code must be EXACTLY the same as that in the `tService.py`. Any change to the code file (including space/newlines/comment) will change the code's hash and AppID. A request with the wrong AppID will still be processed by Taxa Network, but won't be tracked and recorded for the purpose of the Taxa Developer Grant Program.
 
@@ -85,11 +85,11 @@ To complete the challenge, you need to:
 	req.send(
 	  data={'github_name': "[github_username]"},
 	  function="register",
-	  code_path="/path/to/dev_program_code.py"
+	  code_path="/path/to/tService.py"
 	)
 	```
 
-	Replace "[github_username]" with your Github username that has been verified during the registration. On the last line, put the path to the first file you made.
+	Replace "[github_username]" with your Github username that has been verified during the registration. On the last line, put the path to the first file you made.  eg. `"username123"`
 5. Send the request by running "dev_program.py" on the command line:
 
 	```
