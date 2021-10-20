@@ -89,7 +89,7 @@ To complete the challenge, you need to:
 	)
 	```
 
-	Replace "[github_username]" with your Github username that has been verified during the registration. On the last line, put the path to the first file you made.  Enter your username between the brackets.  eg. `"[username123]"`
+	Replace "[github_username]" with your Github username that has been verified during the registration. On the last line, put the path to the first file you made.  eg. `"username123"`
 5. Send the request by running "dev_program.py" on the command line:
 
 	```
