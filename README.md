@@ -2,7 +2,7 @@
 
 ## Preparation
 
-Submit your Github username to the tService with AppID (code hash) `QmVo7WE5P1LK44a7qwt3fnozULqDRrDF4s9bQejPGwTq8o`:
+To finish the Taxa SDK challenge and receive the grant, you must submit your Github username to the tService with AppID (code hash) `QmVo7WE5P1LK44a7qwt3fnozULqDRrDF4s9bQejPGwTq8o`:
 
 ```py
 import json
